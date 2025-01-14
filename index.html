@@ -9,7 +9,30 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+
+        <section class="tamagotchi-container">
+            <h1>Tamagotchi</h1>
+            <section class="status">
+            <p id="hunger">Honger: <span id="hungercount">100</span></p>
+            <div class="status-bar">
+            <div id="hungerBar" class="hunger-bar" style="width: 100%;"></div>
+            </div>
+            <p id="energy">Energie: <span id="energycount">100</span></p>
+            <div class="status-bar">
+            <div id="energyBar" class="energy-bar" style="width: 100%;"></div>
+            </div>
+            <p id="happiness">Geluk: <span id="happinesscount">100</span></p>
+            <div class="status-bar">
+            <div id="happinessBar" class="happiness-bar" style="width: 100%;"></div>
+            </div>
+            <p id="statusMessage">Je tamagochi is gelukkig!</p>
+            </section>
+            <div class="button-container">
+            <button id="feed">Voeden</button>
+            <button id="sleep">Slapen</button>
+            <button id="play">Spelen</button>
+            </div>
+            </section>
         <script src="app.js" async defer></script>
     </body>
 </html>
